@@ -1,0 +1,34 @@
+# OpenHyPE
+# R. Becker, 2023-02-06, V001
+
+# Use .gitignore to not share all solutions at once.
+# By default ignore all directories containing solutions denoted by trailing pattern _soln
+
+gi*/
+*_soln/
+*_dev/
+*_old/
+*_tmp/
+*_INCLASS/
+tmp/
+
+*.ipynb_checkpoints/
+*checkpoint.ipynb
+
+*/credentials.py
+
+data/OpenGeodata.NRW/OpenHygrisC/OpenHygrisC_gw-messstellen-messwerte_EPSG25832_CSV*
+
+data/original/NRW_DTM_Xanten_EPSG_4647_XYZ_old/dgm1_05170052_Xanten_EPSG4647_XYZ/dgm1*
+data/original/NRW_DTM_Xanten_EPSG_4647_XYZ_old/dgm1_05170052_Xanten_EPSG4647_XYZ.zip
+
+data/original/NRW_DTM_Hees_EPSG_25832_XYZ/*
+data/original/NRW_DTM_Xanten_EPSG_25832_XYZ/*
+
+data/original/OpenHygrisC_gw-messstellen-messwerte_EPSG25832_CSV/
+
+
+data/derived/NRW_DTM_Hees_EPSG_25832_GeoTiff/*
+
+!data/derived/NRW_DTM_Hees_EPSG_25832_GeoTiff/*merged.tif
+
